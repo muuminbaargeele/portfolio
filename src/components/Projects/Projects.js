@@ -36,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="BaarGeele Pubg Uc"
               description="is an application made for people who play pubg in somalia to easily buy game clothes through evc-plus."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://baargeelle.com/app"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
