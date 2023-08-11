@@ -5,6 +5,8 @@ import Particle from "../Particle";
 
 import chatify from "../../Assets/Projects/bargeleuc.png";
 import bitsOfCode from "../../Assets/Projects/bargeleucapp.png";
+import bitsOfCod from "../../Assets/Projects/grd.png";
+import bitsOfCo from "../../Assets/Projects/pr.png";
 
 function Projects() {
   return (
@@ -25,8 +27,8 @@ function Projects() {
               title="BaarGeele UC Admin Panel"
               description="
               This admin panel is designed with adobe xd, it is now running code using react js and it is a special admin panel for bargele uc."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              // demoLink="https://chatify-49.web.app/"
+            // ghLink="https://github.com/soumyajit4419/Chatify"
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,8 +38,30 @@ function Projects() {
               isBlog={false}
               title="BaarGeele Pubg Uc"
               description="is an application made for people who play pubg in somalia to easily buy game clothes through evc-plus."
-              ghLink="https://baargeelle.com/app"
-              // demoLink="https://blogs.soumya-jit.tech/"
+            // ghLink="https://baargeelle.com/app"
+            // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCo}
+              isBlog={false}
+              title="Printer App"
+              description="A printer app is a software application that allows users to send print jobs to physical printers remotely using the internet."
+            // ghLink="https://baargeelle.com/app"
+            // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCod}
+              isBlog={false}
+              title="E-government Complaint App"
+              description="An e-government complaint application is a digital platform or system that allows citizens to submit complaints, feedback, or grievances related to government services, processes, or actions using electronic means."
+            // ghLink="https://baargeelle.com/app"
+            // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
